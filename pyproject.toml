@@ -1,2 +1,25 @@
 [build-system]
 requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypack"
+version = "0.0.1"
+authors = [
+    { name="Alexandre Bolzon", email="blzn@mail.ru" },
+]
+description = "A small example package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+keywords = ["python", "pypi", "setuptools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/bolzon/pypack"
+"Bug Tracker" = "https://github.com/bolzon/pypack/issues"
